@@ -1,0 +1,19 @@
+name: 'icapi_extractors'
+sourceId: 48121077-204e-418e-abc5-7020cca8a5fe
+metadata:
+  origin: 'cdf-project-templates'
+capabilities:
+  - projectsAcl:
+      actions:
+        - LIST
+        - READ
+      scope:
+        all: {}
+  - assetsAcl:
+      actions:
+        - READ
+        - WRITE
+      scope:
+        datasetScope:
+          ids: [ds_icapi]
+  
